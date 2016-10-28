@@ -1,23 +1,30 @@
+$bgColor: #124c61 
+$bgBlendColor: #063444
 
 	
+body
+	background: #4ECDC4
+	background: -webkit-linear-gradient(to left, #4ECDC4 , #556270)
+	background: linear-gradient(to left, #4ECDC4 , #556270)
+        
+
 .HeadShot
-	background: #999
+	
 		
 
 h1
 	text-allign: center
 	font:
-		size: 72px
-		weight: 700
-	color: white
+		size: 20px
+		weight: 150
 	text-transform: uppercase
-	letter-spacing: 0.05em
-	margin-bottom: 10px
+	letter-spacing: 0.01em
+	margin-bottom: 4px
 		
 		
 span
 	display: inline-block
-	padding: 0.2em
+	padding: 0.1em
 	border: white solid 10px
 			
 			
@@ -27,15 +34,22 @@ span
 		weight: 700
 	text-transform: uppercase
 	
-.navbar-header
-	background: LightCyan
-	&:hover
-		background: DarkCyan
 		
-.container
-	background: LightCyan
+.navbar-inverse
 	&:hover
-		background: DarkCyan
+		background: #4ECDC4
+		background: -webkit-linear-gradient(to left, #4ECDC4 , #556270)
+		background: linear-gradient(to left, #4ECDC4 , #556270)
+	
+.navbar-collapse
+	color: $bgBlendColor
+	
+.navbar-inverse .container .navbar-nav > li > a:hover
+	color: $bgBlendColor
+
+.navbar-inverse .container .navbar-nav
+	
+
 
 	
 

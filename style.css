@@ -1,15 +1,33 @@
-.HeadShot { background: #999; }
+body {
+  background: #4ECDC4;
+  background: -webkit-linear-gradient(to left, #4ECDC4, #556270);
+  background: linear-gradient(to left, #4ECDC4, #556270); }
 
-h1 { text-allign: center; font-size: 72px; font-weight: 700; color: white; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 10px; }
+h1 {
+  text-allign: center;
+  font-size: 20px;
+  font-weight: 150;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  margin-bottom: 4px; }
 
-span { display: inline-block; padding: 0.2em; border: white solid 10px; }
+span {
+  display: inline-block;
+  padding: 0.1em;
+  border: white solid 10px; }
 
-.kicker { text-allign: center; font-weight: 700; text-transform: uppercase; }
+.kicker {
+  text-allign: center;
+  font-weight: 700;
+  text-transform: uppercase; }
 
-.navbar-header { background: LightCyan; }
-.navbar-header:hover { background: DarkCyan; }
+.navbar-inverse:hover {
+  background: #4ECDC4;
+  background: -webkit-linear-gradient(to left, #4ECDC4, #556270);
+  background: linear-gradient(to left, #4ECDC4, #556270); }
 
-.container { background: LightCyan; }
-.container:hover { background: DarkCyan; }
+.navbar-collapse {
+  color: #063444; }
 
-
+.navbar-inverse .container .navbar-nav > li > a:hover {
+  color: #063444; }
