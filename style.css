@@ -4,12 +4,16 @@ body {
   background: linear-gradient(to left, #4ECDC4, #556270); }
 
 h1 {
-  text-allign: center;
+  text-align: center;
   font-size: 20px;
   font-weight: 150;
   text-transform: uppercase;
   letter-spacing: 0.01em;
-  margin-bottom: 4px; }
+  margin-bottom: 4px;
+  color: #063444; }
+
+a {
+  color: #063444; }
 
 span {
   display: inline-block;
@@ -17,11 +21,12 @@ span {
   border: white solid 10px; }
 
 .kicker {
-  text-allign: center;
-  font-weight: 700;
-  text-transform: uppercase; }
+  color: #063444;
+  text-align: center;
+  font-weight: 600; }
 
-.navbar-inverse:hover {
+.navbar-inverse {
+  border: none;
   background: #4ECDC4;
   background: -webkit-linear-gradient(to left, #4ECDC4, #556270);
   background: linear-gradient(to left, #4ECDC4, #556270); }
@@ -29,5 +34,18 @@ span {
 .navbar-collapse {
   color: #063444; }
 
+.container {
+  height: 10px; }
+
 .navbar-inverse .container .navbar-nav > li > a:hover {
-  color: #063444; }
+  color: #063444;
+  background: #4ECDC4;
+  background: -webkit-linear-gradient(to left, #4ECDC4, #556270);
+  background: linear-gradient(to left, #4ECDC4, #556270); }
+
+.navbar-inverse .container .navbar-nav > li > a {
+  background: #063444;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto;
+  width: auto; }
