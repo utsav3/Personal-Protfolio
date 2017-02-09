@@ -49,3 +49,22 @@ span {
   padding-bottom: 10px;
   height: auto;
   width: auto; }
+  
+  
+.img{
+	padding-left: 40px;
+    float:left;	
+			
+}
+
+p{
+			letter-spacing: .02em;
+			font-family:Mr Dafoe, sans-serif;
+			text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+			color: #001F26;
+			opacity: 0.8;
+			font: 2000 200px ;
+			font-weight: bold;
+}
+
+
